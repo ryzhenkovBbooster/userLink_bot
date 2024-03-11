@@ -51,7 +51,8 @@ def divide_array(chunks, dir_path):
         divided.append(input_array[start_index:end_index])
         # Обновляем начальный индекс для следующего подмассива
         start_index = end_index
-
+    for i in divided:
+        i.append('https://t.me/Dima_Millionare')
     return (divided, data[1], data[2])
 
 
